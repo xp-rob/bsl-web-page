@@ -1,0 +1,117 @@
+/* CSS Document */
+
+/* ----- HTML STYLES ----- */
+/* undo default styling of common (X)HTML browsers */
+
+:link,:visited { text-decoration:none }
+
+ul,ol { list-style:none }
+
+h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,td,tr,th,td
+{ margin:0px; padding:0px; font-family:Verdana, Arial, sans-serif; border:none;}
+
+a img,:link img,:visited img { border:none; }F
+
+address {font-style:normal;}
+
+body {background-color:#DBE0E3; font:Verdana, Arial, sans-serif; font-size:0.625em; margin: 0px; padding: 0px 0 20px 0; text-align:center; color:#436A7B;}
+
+#container {position:relative;	width: 955px; margin: 0px auto 0px auto ; text-align:left; background-color:#FFFFFF;  background-repeat:no-repeat; min-height:650px; height:auto !important; height:650px;}
+
+#navbar001 {position:relative; width:955px; height:92px; float:left;}
+#navbar001 img {position:absolute; top:15px; left:15px;}
+#navbar001 h2 {color:#8AA21D; font-size:1.4em; font-weight:normal; position:absolute; top:28px; right:18px;}
+#navbar001 ul {position:absolute; top:55px; right:18px; color:#8AA21D; font-size:1.1em;}
+#navbar001 ul li {float:left; padding-left:10px;}
+#navbar001 ul li a {color:#436A7B;}
+#navbar001 ul li a:hover {color:#8AA21D;}
+#navbar001 ul li a.current {color:#8AA21D;}
+
+#navbar002 {position:relative; width:209px; padding:18px 0 0 18px; float:left; }
+#navbar002 ul {background-image:url(images/bw-navbar002-bottom.jpg); background-repeat:no-repeat; background-position: bottom; padding-bottom:10px; }
+#navbar002 ul li {font-size:1.1em; background-image:url(images/bw-navbar002-background.jpg); background-repeat:repeat-y; padding:5px 10px 0px 10px; }
+#navbar002 ul li a {color:#436A7B;}
+#navbar002 ul li a:hover {color:#8AA21D;}
+#navbar002 ul li a.current {color:#8AA21D;}
+#navbar002 ul li#consultancyHeader {padding:0px; margin:0px; background:none;}
+#navbar002 ul li#consultancyHeader a {display:block; width:199px; height:22px; background-image:url(images/bw-navbar002-header.gif); color:#FFFFFF; font-size:13px; font-weight:bold; padding:4px 0 0 10px;}
+#navbar002 ul li#consultancyHeader a:hover {background-image:url(images/bw-navbar002-header-hover.gif); color:#436A7B;}
+#navbar002 ul li#consultancyHeader a.current {background-image:url(images/bw-navbar002-header-hover.gif); color:#436A7B;}
+
+#navbar003 {position:relative; width:209px; padding:0 0 0 18px; float:left;}
+#navbar003 ul {}
+#navbar003 ul li a {display:block; width:199px; height:29px; background-image:url(images/bw-navbar003.gif); color:#FFFFFF; font-size:1.1em; padding:8px 0 0 10px; margin-top:7px;}
+#navbar003 ul li a span {font-size:13px; font-weight:bold;}
+#navbar003 ul li a:hover {background-image:url(images/bw-navbar003-hover.gif); color:#4C7181;}
+#navbar003 ul li a.current {background-image:url(images/bw-navbar003-hover.gif); color:#4C7181;}
+#navbar003 img {margin-top:12px;}
+
+#consultancyButton {display:inline-block; background-image:url(images/bw-consultancy-button.gif); width:199px; height:29px; background-repeat:no-repeat; margin:18px 0 0 18px; padding:8px 0 0 10px; color:#FFFFFF; font-size:1.3em; font-weight:bold; }
+#consultancyButton:hover {background-image:url(images/bw-navbar003-hover.gif); color:#4C7181;}
+
+#content {width:748px; 
+display:inline; position:relative; float:right; padding-left:30px; margin:18px 18px 30px 0;  min-height:250px; height:auto !important; height:250px;
+    top: 159px;
+    left: -76px;
+}
+.home {font-size:x-large}
+.about {background-image:url(images/bw-header-about.jpg); background-repeat:no-repeat; padding:110px 0 0 0;}
+.consultancy {background-image:url(images/bw-header-consultancy.jpg); background-repeat:no-repeat; padding:110px 0 0 0;}
+.act {background-image:url(images/bw-act-background.jpg); background-repeat:no-repeat; padding:215px 0 0 0;}
+.buy {background-image:url(images/bw-buy-background.jpg); background-repeat:no-repeat; padding:215px 0 0 0;}
+.invu {background-image:url(images/bw-invu-background.jpg); background-repeat:no-repeat; padding:215px 0 0 0;}
+.swiftpage {background-image:url(images/bw-swiftpage-background.jpg); background-repeat:no-repeat; padding:215px 0 0 0;}
+.sage {background-image:url(images/bw-sage-background.jpg); background-repeat:no-repeat; padding:215px 0 0 0;}
+.copy {float:left; width:400px; padding-top:30px;}
+.panels {float:right; width:230px; margin:30px 9px 0 0;  }
+
+#buyNow {float:right; width:230px; height:131px; background-image:url(images/bw-buy-panel.jpg); background-repeat:no-repeat; margin-bottom:18px;}
+#buyNow a {display:block; width:89px; height:19px; background-image:url(images/bw-buy-panel-button.jpg); margin:92px 0 0 18px;}
+#buyNow a:hover {background-image:url(images/bw-buy-panel-button-hover.jpg);}
+
+#callback {float:right; width:230px; height:355px; background-image:url(images/bw-callback.gif); margin-bottom:18px;}
+#callback h1 {font-size:1.8em; font-weight:normal; color:#8AA21D; padding:10px 0 3px 18px; width:200px}
+#callback h2 {font-size:1.3em; font-weight:normal; color:#436A7B; padding:0 0 5px 18px; width:200px}
+#callback label {float:left; font-size:1.1em; color:#436A7B; width:192px; padding:0 0 0 18px;}
+#callback input {width:192px; height:20px; border-top:1px solid #5794BF; border-bottom:1px solid #C7E2F1; border-left:1px solid #C5DAED; border-right:1px solid #B7D5EA; margin-left:18px;}
+#callback img {width:192px; border-top:1px solid #5794BF; border-bottom:1px solid #C7E2F1; border-left:1px solid #C5DAED; border-right:1px solid #B7D5EA;}
+#callback div span {padding-left:13px; font-size:1.1em;}
+#callback div span input {margin-left:0px;}
+#callback span {width:192px;}
+input#callbackcontrol_btnSubmit {display:inline; margin:5px 0 0 122px; width:89px; height:19px; background-image:url(images/bw-callback-button.jpg); border:none;}
+
+#consultancyPanel {float:right; width:230px; background-image:url(images/bw-panel-consultancy.jpg); background-repeat:no-repeat; padding:136px 0 0 0;}
+#consultancyPanel ul {background-color:#EBEEF0; background-image:url(images/bw-consultancy-bottom.jpg); background-repeat:no-repeat; background-position:bottom; padding-bottom:10px; padding-top:10px; padding-right:10px; }
+#consultancyPanel ul li { background-image:url(images/bw-consultancy-bullet.gif); background-repeat:no-repeat; background-position:21px 6px; padding-left:33px; line-height:1.5em; font-size:1.1em; padding-bottom:5px; font-weight:bold;}
+
+#footer {position:relative;	width: 955px; margin: 4px auto 0px auto ; text-align:left; }
+#footer a {font-size:1.1em; color:#436A7B;}
+#footer a:hover {color:#8AA21D;}
+#footer-left {float:left; width:400px; text-align:left;}
+#footer-right {float:right; width:400px; text-align:right;}
+
+#submenu {position:absolute; top:7px; left:30px;}
+#submenu li {float:left; font-size:1.1em; color:#8AA21D; padding-right:10px;}
+#submenu li a {color:#436A7B;}
+#submenu li a:hover {color:#8AA21D;}
+#submenu li a.current {color:#8AA21D;}
+
+.copy h1 {font-size:1.3em; color:#8AA21D; width:390px; padding:0px 0 15px 0;}
+.copy p {font-size:1.1em; color:#436A7B; width:390px; line-height:1.5em; padding-bottom:15px;}
+.copy a {color:#8AA21D;}
+.copy a:hover {text-decoration:underline;}
+.copy h2 {font-size:1.3em; color:#8AA21D; width:390px; padding:0px 0 15px 0;}
+.copy ul {font-size:1.1em;  padding-bottom:15px;}
+.copy li {list-style-type:disc; margin-left:15px; color:#436A7B; width:390px; line-height:1.5em;}
+.copy label {width:390px; font-size:1.1em; color:#436A7B; float:left; margin-top:5px;}
+.copy label.shortLabel {width:192px; margin-right:4px; }
+.copy label.veryShortLabel {width:80px; margin-right:9px; }
+.copy input {width:189px; height:17px; clear:both; font-size:1.1em; border-top:1px solid #5794bf; border-right:1px solid #B7D5EA; border-bottom:1px solid #C7E2F1; border-left:1px solid #C5DAED; padding:3px 0 0px 3px; margin-bottom:3px; } 
+.copy input.wideInput {width:387px;}
+.copy input.veryShortInput {width:80px;}
+.copy input.submit {float:left; width:89px; height:19px; background-color:#FFFFFF; border:none; background-image:url(images/bw-submit.jpg); clear:both; margin-top:10px; clear:both;}
+.copy .spacer {width:392px; height:10px;}
+.copy .buySelectDiv {width:400px; float:left; clear:both;}
+
